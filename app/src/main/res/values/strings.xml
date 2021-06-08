@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HealthDepot</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="title_activity_teacher_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_account">Account</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_student_home">MainActivity</string>
+    <string name="title_activity_doctor_home">MainActivity</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_user_home">MainActivity</string>
+</resources>

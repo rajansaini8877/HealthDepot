@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/header_text_view"
+        style="@style/headerText"
+        android:layout_gravity="center"
+        android:text="Locate The Tutor"
+        android:layout_marginTop="40dp"/>
+    <ViewStub
+        android:id="@+id/student_view_stub"
+        android:layout="@layout/layout_login"
+        android:inflatedId="@+id/student_credentials_view_stub"
+        android:layout_marginTop="@dimen/loginViewsMargin"
+        android:layout_marginBottom="@dimen/loginViewsMargin"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+</LinearLayout>

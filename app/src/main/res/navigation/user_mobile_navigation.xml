@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_mobile_navigation"
+    app:startDestination="@+id/user_navigation_home">
+
+    <fragment
+        android:id="@+id/user_navigation_home"
+        android:name="com.myappcompany.rajan.healthdepot.ui_user.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_user_home" />
+
+    <fragment
+        android:id="@+id/user_navigation_dashboard"
+        android:name="com.myappcompany.rajan.healthdepot.ui_user.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_user_dashboard" />
+
+    <fragment
+        android:id="@+id/user_navigation_notifications"
+        android:name="com.myappcompany.rajan.healthdepot.ui_user.account.AccountFragment"
+        android:label="Account"
+        tools:layout="@layout/fragment_user_account" />
+</navigation>

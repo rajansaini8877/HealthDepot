@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "677471298947",
+    "project_id": "healthdepot-456d1",
+    "storage_bucket": "healthdepot-456d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677471298947:android:34db61de8977a0fd7642b6",
+        "android_client_info": {
+          "package_name": "com.myappcompany.rajan.healthdepot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677471298947-rnfrf1l4ah8upa1aq5makhlr370iao6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgYsnnyhr9qO8P37UuBoC1hypmqeDtL18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677471298947-rnfrf1l4ah8upa1aq5makhlr370iao6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
